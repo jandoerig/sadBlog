@@ -1,0 +1,6 @@
+<form #registerForm="ngForm" class="register">
+  <input ngModel name="username" type="text" id="username" placeholder="username">
+  <input ngModel name="email" type="text" id="email" placeholder="email">
+  <input ngModel name="password" type="password" id="password" placeholder="password">
+  <button (click)="register(registerForm)">register</button>
+</form>
